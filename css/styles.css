@@ -111,46 +111,32 @@ p, ul, h3{
 @media only screen and (max-width: 400px) {
 
 
-  .photo-container-home, .photo-container-portfolio, .pricing-container {
+  .photo-container-home, {
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  .About-item{
-    display: flex;
-    flex-direction: column;
-  }
-  .photosize {
-    width: 30%;
   }
 
 }
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-  .photo-container-home, .photo-container-portfolio, .pricing-container {
+  .photo-container-home,{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .About-item{
-    display: flex;
-    flex-direction: row;
-  }
+
 }
 /*Desktop*/
 @media only screen and (min-width: 961px){
 
-  .photo-container-home, .photo-container-portfolio, .pricing-container {
+  .photo-container-home, {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  .About-item{
-    display: flex;
-    flex-direction: row;
   }
 }
