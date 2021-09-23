@@ -46,14 +46,13 @@
   }
 }
 @media only screen and (min-width: 961px){
-
   .game-img {
     width: 33%;
-    order: -1;
+    order: -2;
   }
   .game-score {
     width: 67%;
-    order: 0;
+    order: -1;
   }
   .game-container {
     width: 100%;
