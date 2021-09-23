@@ -106,20 +106,6 @@ p, ul, h3{
   font-style: italic;
 }
 
-/*About Page*/
-.About-item {
-  margin: 1rem 1rem 1rem 1rem;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.About-content-container {
-  background-color: #FFDDD2;
-  display: flex;
-  justify-content: center;
-  margin-left: 0;
-}
 
 /*Moble */
 @media only screen and (max-width: 400px) {
