@@ -1,8 +1,8 @@
 p, ul, h3{
   color: #22577A;
 }
-.games-score ul{
-  size: 45px;
+#list {
+  font-size: 40px;
 }
 .game-container {
   justify-content: center;    /* Change this */
@@ -13,7 +13,7 @@ p, ul, h3{
 
 .game-score, .game-body, .game-img {
   display: flex;
-  padding: 30px;
+  padding: 50px;
 }
 
 .game-img img {
