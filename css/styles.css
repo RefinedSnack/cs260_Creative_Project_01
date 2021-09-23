@@ -2,13 +2,15 @@
 h1, h2{
   font-style: cursive;
   font-family: snell Roundhand;
-  color: #E29578;
+  color:  #80ED99;
 }
-h1{
-  justify-content: center;
+.subtitle h1 {
+  text-align: center;
+}
+
 }
 p, ul, h3{
-  color: #006D77;
+  color: #22577A;
 }
 #person{ /*Review page reviewer names*/
   color: #EDF6F9;
@@ -39,12 +41,15 @@ p, ul, h3{
 
 .title {
   display: flex;
-  justify-content: center;
+  text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
+  flex-direction: column;
 }
 .title-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 /*Home Page*/
@@ -55,7 +60,6 @@ p, ul, h3{
 }
 
 .photo-container-home {
-  background-color: #FFDDD1;
   display: flex;
   justify-content: center;
 }
@@ -66,24 +70,13 @@ p, ul, h3{
   justify-content: center;
 }
 
-.pricing-container{
-  display: flex;
-  justify-content: center;
-}
-
-.pricing-item, .pricing-title {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 50px 50px 50px 50px;
-}
 
 #list{
   list-style-type: none;
 }
 
 .footer-container {
-  background-color: #FF6B6B;
+  background-color: #57CC99;
   margin-left: 0;
 }
 .footer{
@@ -93,17 +86,18 @@ p, ul, h3{
 
 /*Reviews Page*/
 
-.Review-item {
-  background-color: #4ECDC4;
+.forum-item {
+  background-color: #83D3D5;
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 20px;
   margin-left:100px;
   margin-right:100px;
+  padding: 20px 20px 20px 20px;
 
 }
-.Reviews-Container{
+.forum-Container{
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -125,20 +119,6 @@ p, ul, h3{
   display: flex;
   justify-content: center;
   margin-left: 0;
-}
-
-.Funfacts-container{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.funfacts-item{
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 
 /*Moble */
