@@ -20,6 +20,10 @@ p, ul, h3{
   width: 100%;
 }
 
+.game-score {
+  background-color: #D3FAD7;
+}
+
 
 /*Mobile*/
 @media only screen and (max-width: 400px) {

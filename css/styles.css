@@ -10,20 +10,18 @@ h1, h2{
 h1 {
   font-size: 52px;
 }
+p{
+  font-size: 20px;
+}
 
 }
-p, ul, h3{
+p, ul, h3, #person{
   color: #22577A;
 }
-#person{ /*Review page reviewer names*/
-  color: #EDF6F9;
-}
-
 
 .photosize {
   width: 75%;
 }
-
 
 /*Menu Bar Style*/
 .menu-item {
@@ -79,7 +77,7 @@ p, ul, h3{
 
 .footer-container {
   background-color: #57CC99;
-  margin-left: 0;
+  margin-top: 50px;
 }
 .footer{
   margin-left: 100px;
@@ -89,13 +87,11 @@ p, ul, h3{
 /*Reviews Page*/
 
 .forum-item {
-  background-color: #80ED99;
+  background-color: #D3FAD7;
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 20px;
-  margin-left:100px;
-  margin-right:100px;
   padding: 20px 20px 20px 20px;
 
 }
@@ -106,6 +102,7 @@ p, ul, h3{
 
 #reviews {
   font-style: italic;
+  color: #22577A;
 }
 
 
@@ -119,17 +116,7 @@ p, ul, h3{
     justify-content: center;
     flex-wrap: wrap;
   }
-<<<<<<< HEAD
 
-=======
-  .About-item{
-    display: flex;
-    flex-direction: column;
-  }
-  .photosize {
-    width: 30%;
-  }
->>>>>>> aa1ef482dcfc7e48b82960d0d3672248b68a5b23
 }
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -140,13 +127,10 @@ p, ul, h3{
     justify-content: center;
     flex-wrap: wrap;
   }
-<<<<<<< HEAD
-=======
-  .About-item{
-    display: flex;
-    flex-direction: row;
+  .forum-item {
+    margin-left:100px;
+    margin-right:100px;
   }
->>>>>>> aa1ef482dcfc7e48b82960d0d3672248b68a5b23
 
 }
 /*Desktop*/
@@ -157,5 +141,9 @@ p, ul, h3{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .forum-item {
+    margin-left:100px;
+    margin-right:100px;
   }
 }
