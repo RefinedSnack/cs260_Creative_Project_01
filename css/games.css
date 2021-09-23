@@ -8,7 +8,7 @@
 .game-score, .game-body, .game-img {
   display: flex;
   background: yellow;
-  padding: 5%;
+  padding: 30px;
 }
 
 .game-img img {
