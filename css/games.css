@@ -1,0 +1,62 @@
+.game-container {
+  justify-content: center;    /* Change this */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.game-score, .game-body, .game-img {
+  display: flex;
+  background: yellow;
+  padding: 5%;
+}
+
+.game-img img {
+  width: 100%;
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+  .game-score {
+    width: 100%;
+    order: -1;
+  }
+  .game-img {
+    width: 100%;
+    order: 0;
+  }
+  .game-container {
+    width: 100%;
+    order: 1;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .game-img {
+    width: 33%;
+    order: -2;
+  }
+  .game-score {
+    width: 67%;
+    order: -1;
+  }
+  .game-container {
+    width: 100%;
+    order: 1;
+  }
+}
+@media only screen and (min-width: 961px){
+
+  .game-img {
+    width: 33%;
+    order: -1;
+  }
+  .game-score {
+    width: 67%;
+    order: 0;
+  }
+  .game-container {
+    width: 100%;
+    order: 1;
+  }
+}
