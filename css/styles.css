@@ -146,17 +146,12 @@ p, ul, h3, #person{
 /*Desktop*/
 @media only screen and (min-width: 961px){
 
-<<<<<<< HEAD
   .photo-container-home {
-=======
-  .photo-container-home, {
->>>>>>> 0fd1f0193247819fc7745987aef05fd2b5a1ae6e
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
-<<<<<<< HEAD
   .photo-home {
         width: 30%;
         display: flex ;
@@ -166,12 +161,7 @@ p, ul, h3, #person{
   .About-item{
     display: flex;
     flex-direction: row;
-=======
-  .forum-item {
-    margin-left:100px;
-    margin-right:100px;
->>>>>>> 0fd1f0193247819fc7745987aef05fd2b5a1ae6e
-  }
+
   .anch-link{
     width: 100%;
     display: flex;
