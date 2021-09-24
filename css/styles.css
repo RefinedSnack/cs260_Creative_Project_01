@@ -2,28 +2,26 @@
 h1, h2{
   font-style: cursive;
   font-family: snell Roundhand;
-  color:  #80ED99;
+  color: #83D3D5;
 }
 .subtitle h1 {
   text-align: center;
 }
+h1 {
+  font-size: 52px;
+}
+p{
+  font-size: 20px;
+}
 
 }
-p, ul, h3{
+p, ul, h3, #person{
   color: #22577A;
 }
-#person{ /*Review page reviewer names*/
-  color: #EDF6F9;
-}
-
 
 .photosize {
-  width: 30%;
+  width: 75%;
 }
-.photosize-w{
-  width: 30%;
-}
-
 
 /*Menu Bar Style*/
 .menu-item {
@@ -61,6 +59,7 @@ p, ul, h3{
 
 .photo-container-home, .photo-container-portfolio, .pricing-container {
   display: flex;
+<<<<<<< HEAD
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
@@ -68,8 +67,17 @@ p, ul, h3{
 
 .photo-home{
   margin: 1rem 1rem 1rem 1rem;
+=======
+  justify-content: center
+  margin: 50px;
+}
+
+.photo{
+  margin: 2rem;
+>>>>>>> 0fd1f0193247819fc7745987aef05fd2b5a1ae6e
   display: flex;
   justify-content: center;
+  padding: 1rem;
 }
 
 
@@ -79,7 +87,7 @@ p, ul, h3{
 
 .footer-container {
   background-color: #57CC99;
-  margin-left: 0;
+  margin-top: 50px;
 }
 .footer{
   margin-left: 100px;
@@ -89,13 +97,11 @@ p, ul, h3{
 /*Reviews Page*/
 
 .forum-item {
-  background-color: #83D3D5;
+  background-color: #D3FAD7;
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 20px;
-  margin-left:100px;
-  margin-right:100px;
   padding: 20px 20px 20px 20px;
 
 }
@@ -106,65 +112,51 @@ p, ul, h3{
 
 #reviews {
   font-style: italic;
+  color: #22577A;
 }
 
-/*About Page*/
-.About-item {
-  margin: 1rem 1rem 1rem 1rem;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.About-content-container {
-  background-color: #FFDDD2;
-  display: flex;
-  justify-content: center;
-  margin-left: 0;
-}
 
 /*Moble */
 @media only screen and (max-width: 400px) {
 
 
-  .photo-container-home, .photo-container-portfolio, .pricing-container {
+  .photo-container-home, {
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .About-item{
-    display: flex;
-    flex-direction: column;
-  }
-  .photosize {
-    width: 30%;
-  }
+
 }
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-  .photo-container-home, .photo-container-portfolio, .pricing-container {
+  .photo-container-home,{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .About-item{
-    display: flex;
-    flex-direction: row;
+  .forum-item {
+    margin-left:100px;
+    margin-right:100px;
   }
 
 }
 /*Desktop*/
 @media only screen and (min-width: 961px){
 
+<<<<<<< HEAD
   .photo-container-home {
+=======
+  .photo-container-home, {
+>>>>>>> 0fd1f0193247819fc7745987aef05fd2b5a1ae6e
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
+<<<<<<< HEAD
   .photo-home {
         width: 30%;
         display: flex ;
@@ -174,6 +166,11 @@ p, ul, h3{
   .About-item{
     display: flex;
     flex-direction: row;
+=======
+  .forum-item {
+    margin-left:100px;
+    margin-right:100px;
+>>>>>>> 0fd1f0193247819fc7745987aef05fd2b5a1ae6e
   }
   .anch-link{
     width: 100%;
