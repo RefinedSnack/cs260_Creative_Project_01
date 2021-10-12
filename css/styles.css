@@ -14,7 +14,6 @@ p{
   font-size: 20px;
 }
 
-}
 p, ul, h3, #person{
   color: #22577A;
 }
@@ -59,7 +58,6 @@ p, ul, h3, #person{
 
 .photo-container-home, .photo-container-portfolio, .pricing-container {
   display: flex;
-<<<<<<< HEAD
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
@@ -67,14 +65,12 @@ p, ul, h3, #person{
 
 .photo-home{
   margin: 1rem 1rem 1rem 1rem;
-=======
-  justify-content: center
+  justify-content: center;
   margin: 50px;
 }
 
 .photo{
   margin: 2rem;
->>>>>>> 0fd1f0193247819fc7745987aef05fd2b5a1ae6e
   display: flex;
   justify-content: center;
   padding: 1rem;
@@ -120,7 +116,7 @@ p, ul, h3, #person{
 @media only screen and (max-width: 400px) {
 
 
-  .photo-container-home, {
+  .photo-container-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,7 +127,7 @@ p, ul, h3, #person{
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-  .photo-container-home,{
+  .photo-container-home{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -161,7 +157,7 @@ p, ul, h3, #person{
   .About-item{
     display: flex;
     flex-direction: row;
-
+  }
   .anch-link{
     width: 100%;
     display: flex;
