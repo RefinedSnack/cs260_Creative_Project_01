@@ -49,6 +49,12 @@ p, ul, h3, #person{
   justify-content: center;
 }
 
+/*Search Bar*/
+.Search-Bar {
+  justify-content: center;
+  display: flex;
+}
+
 /*Home Page*/
 .Intro-content-container{
   display:flex;

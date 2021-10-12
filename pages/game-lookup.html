@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css">
     <title>Find a Game!</title>
+    <script type="text/javascript" src="/js/gamesearch.js"></script>
   </head>
   <body>
 
@@ -48,19 +49,15 @@
 </div>
 
 <!--Input Field-->
-<div class = 'userInput'>
+<div class = 'Search-Bar'>
     <form>
-        <input id = "weatherInput" type = "text" placeholder = "Enter any U.S. City"></input>
-        <input id = "weatherSubmit" type = "submit" value = "Submit"></input>
+        <input id = "gameInput" type = "text" placeholder = "Type any game here"></input>
+        <input id = "gameSubmit" type = "submit" value = "Submit"></input>
     </form>
 </div>
 
-<!--Photo Bar-->
-<div class="photo-container-home">
-  <div class="photo-home"><a class="anch-link" accesskey=""href="https://www.amazon.com/Asmodee-SEV07-7-Wonders-Duel/dp/B014DMSTXK"><img class="photosize" src="/images/7Wondersduelimage.jpg" alt="Picture of 7 Wonders Duel Boardgame"></a></div>
-  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Rio-Grande-Games-Bohnanza-Duel/dp/B071RVLJNZ"><img class="photosize" src="/images/Bohnanzaimage.jpg" alt="Picture of Bohnanza Boardgame"></a></div>
-  <div class="photo-home"><a class="anch-link" href="https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ"><img class="photosize" src="/images/Settlerpicture.jpg" alt="Picture of Setters of Catan Boardgame"></a></div>
-</div>
+<div id = 'result'></div>
+
 <!--Footer -->
   <div class="footer-container">
     <div class="footer">
