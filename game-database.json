@@ -1,0 +1,206 @@
+{
+    "gameIdTable": 
+    [
+        {
+          "gameId": 323612,
+          "name": "Bitoku"
+        },
+        {
+          "gameId": 329713,
+          "name": "Dune: House Secrets"
+        },
+        {
+          "gameId": 238799,
+          "name": "Messina 1347"
+        },
+        {
+          "gameId": 316554,
+          "name": "Dune: Imperium"
+        },
+        {
+          "gameId": 343905,
+          "name": "Boonlake"
+        },
+        {
+          "gameId": 298383,
+          "name": "Golem"
+        },
+        {
+          "gameId": 342942,
+          "name": "Ark Nova"
+        },
+        {
+          "gameId": 317582,
+          "name": "Mythwind"
+        },
+        {
+          "gameId": 312484,
+          "name": "Lost Ruins of Arnak"
+        },
+        {
+          "gameId": 337627,
+          "name": "Voidfall"
+        },
+        {
+          "gameId": 295947,
+          "name": "Cascadia"
+        },
+        {
+          "gameId": 299106,
+          "name": "Fractal: Beyond the Void"
+        },
+        {
+          "gameId": 249277,
+          "name": "Brazil: Imperial"
+        },
+        {
+          "gameId": 205637,
+          "name": "Arkham Horror: The Card Game"
+        },
+        {
+          "gameId": 339958,
+          "name": "Gutenberg"
+        },
+        {
+          "gameId": 340466,
+          "name": "Unfathomable"
+        },
+        {
+          "gameId": 333539,
+          "name": "The Siege of Runedar"
+        },
+        {
+          "gameId": 309319,
+          "name": "Apogee"
+        },
+        {
+          "gameId": 318084,
+          "name": "Furnace"
+        },
+        {
+          "gameId": 162886,
+          "name": "Spirit Island"
+        },
+        {
+          "gameId": 167791,
+          "name": "Terraforming Mars"
+        },
+        {
+          "gameId": 344258,
+          "name": "That Time You Killed Me"
+        },
+        {
+          "gameId": 285967,
+          "name": "Ankh: Gods of Egypt"
+        },
+        {
+          "gameId": 285774,
+          "name": "Marvel Champions: The Card Game"
+        },
+        {
+          "gameId": 316786,
+          "name": "Tabannusi: Builders of Ur"
+        },
+        {
+          "gameId": 266192,
+          "name": "Wingspan"
+        },
+        {
+          "gameId": 174430,
+          "name": "Gloomhaven"
+        },
+        {
+          "gameId": 322588,
+          "name": "Origins: First Builders"
+        },
+        {
+          "gameId": 237182,
+          "name": "Root"
+        },
+        {
+          "gameId": 317457,
+          "name": "Dinosaur World"
+        },
+        {
+          "gameId": 199792,
+          "name": "Everdell"
+        },
+        {
+          "gameId": 299684,
+          "name": "Khora: Rise of an Empire"
+        },
+        {
+          "gameId": 167355,
+          "name": "Nemesis"
+        },
+        {
+          "gameId": 169786,
+          "name": "Scythe"
+        },
+        {
+          "gameId": 224517,
+          "name": "Brass: Birmingham"
+        },
+        {
+          "gameId": 317985,
+          "name": "Beyond the Sun"
+        },
+        {
+          "gameId": 323613,
+          "name": "LUNA Capital"
+        },
+        {
+          "gameId": 322708,
+          "name": "Descent: Legends of the Dark"
+        },
+        {
+          "gameId": 192135,
+          "name": "Too Many Bones"
+        },
+        {
+          "gameId": 341254,
+          "name": "Lost Ruins of Arnak: Expedition Leaders"
+        },
+        {
+          "gameId": 311193,
+          "name": "Anno 1800"
+        },
+        {
+          "gameId": 291457,
+          "name": "Gloomhaven: Jaws of the Lion"
+        },
+        {
+          "gameId": 246900,
+          "name": "Eclipse: Second Dawn for the Galaxy"
+        },
+        {
+          "gameId": 220308,
+          "name": "Gaia Project"
+        },
+        {
+          "gameId": 255984,
+          "name": "Sleeping Gods"
+        },
+        {
+          "gameId": 177736,
+          "name": "A Feast for Odin"
+        },
+        {
+          "gameId": 343562,
+          "name": "Horrified: American Monsters"
+        },
+        {
+          "gameId": 193738,
+          "name": "Great Western Trail"
+        },
+        {
+          "gameId": 276025,
+          "name": "Maracaibo"
+        },
+        {
+          "gameId": 292375,
+          "name": "The Great Wall"
+        }],
+      "gameList":
+      ["Bitoku","Dune:HouseSecrets","Messina1347","Dune:Imperium","Boonlake","Golem","ArkNova","Mythwind","LostRuinsofArnak","Voidfall","Cascadia","Fractal:BeyondtheVoid","Brazil:Imperial","ArkhamHorror:TheCardGame","Gutenberg","Unfathomable","TheSiegeofRunedar","Apogee","Furnace","SpiritIsland","TerraformingMars","ThatTimeYouKilledMe","Ankh:GodsofEgypt","MarvelChampions:TheCardGame","Tabannusi:BuildersofUr","Wingspan","Gloomhaven","Origins:FirstBuilders","Root","DinosaurWorld","Everdell","Khora:RiseofanEmpire","Nemesis","Scythe","Brass:Birmingham","BeyondtheSun","LUNACapital","Descent:LegendsoftheDark","TooManyBones","LostRuinsofArnak:ExpeditionLeaders","Anno1800","Gloomhaven:JawsoftheLion","Eclipse:SecondDawnfortheGalaxy","GaiaProject","SleepingGods","AFeastforOdin","Horrified:AmericanMonsters","GreatWesternTrail","Maracaibo","TheGreatWall"]
+}

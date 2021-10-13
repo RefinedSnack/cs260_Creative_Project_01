@@ -17,6 +17,9 @@ p{
 p, ul, h3, #person{
   color: #22577A;
 }
+table, td {
+  border: 1px solid black;
+}
 
 .photosize {
   width: 75%;
