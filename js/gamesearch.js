@@ -1,4 +1,5 @@
-var database_url = "/game-database.json";
+var database_url = "/json/Massive-Database.json";
+//var database_url = "/json/Small-Database.json";
 var gameTable;
 fetch(database_url).then(function(response) {
     if (response.status != 200) {
@@ -14,7 +15,6 @@ fetch(database_url).then(function(response) {
 });
 
 function lookup(name) {
-  console.log(gameTable);
   var stripped = name.replace(/\s+/g, '');
   stripped = stripped.toLowerCase();
     for (let i = 0; i < gameTable.length; i++) {
@@ -43,6 +43,7 @@ function onClick(e) {
 
     // setup URL
     url = "https://bgg-json.azurewebsites.net/thing/" + gameID;
+    //url = "https://bgg-json.azurewebsites.net/boardgame/" + gameID;
     // call API
     fetch(url)
       .then(function(response) {
@@ -70,20 +71,44 @@ function onClick(e) {
     document.getElementById("gameSubmit").addEventListener("click", onClick);
   }
 
+  function pick30RandomGames()
+  {
+    var out = [];
+    let i = 0;
+    while (i < 30)
+    {
+      var num = Math.floor(Math.random() * gameTable.length);
+      for (let y in out)
+      {
+        if (num === y) {
+          continue;
+        }
+      }
+      out.push(num);
+      i++;
+    }
+    return out;
+  }
+
   function suggestGames(guess) {
       var result = "";
-      result += "<center><p>" + guess + " wasn't a valid game title, try one of these instead!</p></center>";
+      if (guess != "")
+        result += "<center><p><strong>" + guess + "</strong> wasn't a valid game title<br>Try one of these instead!</p></center>";
+      else
+        result += "<center><p>Here are some random games to take a look at!</p>";
       result += "<center><table style=\"border-collapse: unset;\">";
       const NUM_COLS = 3;
-      for (let i = 0; i < gameTable.length; i += NUM_COLS) {
+      let SuggestedGames = pick30RandomGames();
+      for (let i = 0; i < SuggestedGames.length; i += NUM_COLS) {
           result += "<tr>";
           for (let j = 0; j < NUM_COLS; j++) {
-              if (i+j < gameTable.length)
-                result += "<td>"+gameTable[i+j].name+"</td>";
-            }
-            result += "</tr>";
+            result += "<td>"+gameTable[SuggestedGames[i+j]].name+"</td>";
+          }
+          result += "</tr>";
       }
       result += "</center></table>";
 
       document.getElementById('result').innerHTML = result;
   }
+
+

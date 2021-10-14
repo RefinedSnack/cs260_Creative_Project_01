@@ -1,0 +1,228 @@
+{
+    "gameId": 31260,
+    "name": "Agricola",
+    "description": "Description from BoardgameNews&#10;&#10;In Agricola, you're a farmer in a wooden shack with your spouse and little else. On a turn, you get to take only two actions, one for you and one for the spouse, from all the possibilities you'll find on a farm: collecting clay, wood, or stone; building fences; and so on. You might think about having kids in order to get more work accomplished, but first you need to expand your house. And what are you going to feed all the little rugrats?&#10;&#10;The game supports many levels of complexity, mainly through the use (or non-use) of two of its main types of cards, Minor Improvements and Occupations. In the beginner's version (called the Family Variant in the U.S. release), these cards are not used at all. For advanced play, the U.S. release includes three levels of both types of cards; Basic (E-deck), Interactive (I-deck), and Complex (K-deck), and the rulebook encourages players to experiment with the various decks and mixtures thereof. Aftermarket decks such as the Z-Deck and the L-Deck also exist.&#10;&#10;Agricola is a turn-based game. There are 14 game rounds occurring in 6 stages, with a Harvest at the end of each stage (after Rounds 4, 7, 9, 11, 13, and 14).&#10;Each player starts with two playing tokens (farmer and spouse) and thus can take two turns, or actions, per round. There are multiple options, and while the game progresses, you'll have more and more: first thing in a round, a new action card is flipped over.&#10;Problem: Each action can be taken by only one player each round, so it's important to do some things with high preference.&#10;Each player also starts with a hand of 7 Occupation cards (of more than 160 total) and 7 Minor Improvement cards (of more than 140 total) that he/she may use during the game if they fit in his/her strategy. Speaking of which, there are countless strategies, some depending on your card hand. Sometimes it's a good choice to stay on course, and sometimes it is better to react to your opponents' actions.&#10;&#10;",
+    "image": "https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__original/img/toobKoejPiHpfpHk4SYd1UAJafw=/0x0/filters:format(jpeg)/pic831744.jpg",
+    "thumbnail": "https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__thumb/img/GHGdnCfeysoP_34gLnofJcNivW8=/fit-in/200x150/filters:strip_icc()/pic831744.jpg",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playingTime": 150,
+    "mechanics": [
+      "Advantage Token",
+      "Automatic Resource Growth",
+      "Drafting",
+      "Enclosure",
+      "Hand Management",
+      "Increase Value of Unchosen Resources",
+      "Solo / Solitaire Game",
+      "Turn Order: Claim Action",
+      "Variable Player Powers",
+      "Worker Placement"
+    ],
+    "isExpansion": false,
+    "yearPublished": 2007,
+    "bggRating": 7.81678,
+    "averageRating": 7.93259,
+    "rank": 34,
+    "designers": [
+      "Uwe Rosenberg"
+    ],
+    "publishers": [
+      "Lookout Games",
+      "999 Games",
+      "Brain Games",
+      "Compaya.hu - Gamer Café Kft.",
+      "Devir",
+      "Filosofia Éditions",
+      "Funforge",
+      "Hasbro",
+      "Hobby Japan",
+      "Hobby World",
+      "HomoLudicus",
+      "Korea Boardgames Co., Ltd.",
+      "Lacerta",
+      "MINDOK",
+      "Smart Ltd",
+      "Stratelibri",
+      "Swan Panasia Co., Ltd.",
+      "Ystari Games",
+      "Z-Man Games"
+    ],
+    "artists": [
+      "Klemens Franz"
+    ],
+    "playerPollResults": [
+      {
+        "numPlayers": 1,
+        "best": 74,
+        "recommended": 777,
+        "notRecommended": 388,
+        "numPlayersIsAndHigher": false
+      },
+      {
+        "numPlayers": 2,
+        "best": 339,
+        "recommended": 1023,
+        "notRecommended": 176,
+        "numPlayersIsAndHigher": false
+      },
+      {
+        "numPlayers": 3,
+        "best": 940,
+        "recommended": 627,
+        "notRecommended": 30,
+        "numPlayersIsAndHigher": false
+      },
+      {
+        "numPlayers": 4,
+        "best": 1052,
+        "recommended": 521,
+        "notRecommended": 36,
+        "numPlayersIsAndHigher": false
+      },
+      {
+        "numPlayers": 5,
+        "best": 309,
+        "recommended": 778,
+        "notRecommended": 296,
+        "numPlayersIsAndHigher": false
+      },
+      {
+        "numPlayers": 5,
+        "best": 9,
+        "recommended": 22,
+        "notRecommended": 697,
+        "numPlayersIsAndHigher": true
+      }
+    ],
+    "expansions": [
+      {
+        "name": "Agricola CZ-Deck",
+        "gameId": 59158
+      },
+      {
+        "name": "Agricola Ereigniskarten",
+        "gameId": 113413
+      },
+      {
+        "name": "Agricola X-Deck",
+        "gameId": 38733
+      },
+      {
+        "name": "Agricola Z-Deck",
+        "gameId": 37235
+      },
+      {
+        "name": "Agricola: Agricola Meets Newdale",
+        "gameId": 292850
+      },
+      {
+        "name": "Agricola: Animal trainer",
+        "gameId": 242392
+      },
+      {
+        "name": "Agricola: Belgium Deck",
+        "gameId": 131403
+      },
+      {
+        "name": "Agricola: Bielefeld Deck",
+        "gameId": 150732
+      },
+      {
+        "name": "Agricola: Brakelhühner Promo Card",
+        "gameId": 132592
+      },
+      {
+        "name": "Agricola: Changelings",
+        "gameId": 263965
+      },
+      {
+        "name": "Agricola: Clay deposit",
+        "gameId": 242391
+      },
+      {
+        "name": "Agricola: De Lage Landen",
+        "gameId": 109012
+      },
+      {
+        "name": "Agricola: Farmers of the Moor",
+        "gameId": 43018
+      },
+      {
+        "name": "Agricola: Feed pellets",
+        "gameId": 242390
+      },
+      {
+        "name": "Agricola: France Deck",
+        "gameId": 166463
+      },
+      {
+        "name": "Agricola: Gamers' Deck",
+        "gameId": 85704
+      },
+      {
+        "name": "Agricola: Glon­na­cker",
+        "gameId": 183316
+      },
+      {
+        "name": "Agricola: Guildmaster",
+        "gameId": 242388
+      },
+      {
+        "name": "Agricola: L-Deck",
+        "gameId": 39090
+      },
+      {
+        "name": "Agricola: NL-Deck",
+        "gameId": 103182
+      },
+      {
+        "name": "Agricola: Ö-Deck",
+        "gameId": 39256
+      },
+      {
+        "name": "Agricola: Pelts",
+        "gameId": 242389
+      },
+      {
+        "name": "Agricola: Pi-Deck",
+        "gameId": 130847
+      },
+      {
+        "name": "Agricola: Rancher",
+        "gameId": 242350
+      },
+      {
+        "name": "Agricola: Rozšíření",
+        "gameId": 240737
+      },
+      {
+        "name": "Agricola: The Goodies Expansion",
+        "gameId": 73833
+      },
+      {
+        "name": "Agricola: The Legen*dairy Forest-Deck",
+        "gameId": 83697
+      },
+      {
+        "name": "Agricola: Through the Seasons",
+        "gameId": 38641
+      },
+      {
+        "name": "Agricola: Times they are a-changing",
+        "gameId": 279703
+      },
+      {
+        "name": "Agricola: World Championship Deck – 2011",
+        "gameId": 103183
+      },
+      {
+        "name": "Improved Farming & Disasters (fan expansion for Agricola)",
+        "gameId": 114557
+      },
+      {
+        "name": "The MY Deck (fan expansion for Agricola)",
+        "gameId": 73500
+      }
+    ]
+  }
