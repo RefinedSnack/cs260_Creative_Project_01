@@ -1,5 +1,4 @@
 var database_url = "/game-database.json";
-var gameList;
 var gameTable;
 fetch(database_url).then(function(response) {
     if (response.status != 200) {
@@ -10,18 +9,20 @@ fetch(database_url).then(function(response) {
     return response.json(); 
 }).then(function(json) {
   // update DOM with response
-  gameList = json.gameList;
   gameTable = json.gameIdTable;
   updateResult(json.text);
 });
 
 function lookup(name) {
-    for (let i = 0; i < gameList.length; i++) {
+  console.log(gameTable);
+  var stripped = name.replace(/\s+/g, '');
+  stripped = stripped.toLowerCase();
+    for (let i = 0; i < gameTable.length; i++) {
         //console.log(gameList[i]);
-        var stripped = name.replace(/\s+/g, '');
-        stripped = stripped.toLowerCase();
+        var strippedTrueName = gameTable[i].name.replace(/\s+/g, '');;
+        strippedTrueName = strippedTrueName.toLowerCase();
         //console.log(stripped);
-        if ((gameList[i].toLowerCase() === stripped)) {
+        if (strippedTrueName === stripped) {
             return gameTable[i].gameId;
         }
     }
@@ -74,11 +75,11 @@ function onClick(e) {
       result += "<center><p>" + guess + " wasn't a valid game title, try one of these instead!</p></center>";
       result += "<center><table style=\"border-collapse: unset;\">";
       const NUM_COLS = 3;
-      for (let i = 0; i < gameList.length; i += NUM_COLS) {
+      for (let i = 0; i < gameTable.length; i += NUM_COLS) {
           result += "<tr>";
           for (let j = 0; j < NUM_COLS; j++) {
-              if (i+j < gameList.length)
-                result += "<td>"+gameList[i+j]+"</td>";
+              if (i+j < gameTable.length)
+                result += "<td>"+gameTable[i+j].name+"</td>";
             }
             result += "</tr>";
       }

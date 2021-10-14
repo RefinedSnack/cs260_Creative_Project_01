@@ -200,7 +200,6 @@
         {
           "gameId": 292375,
           "name": "The Great Wall"
-        }],
-      "gameList":
-      ["Bitoku","Dune:HouseSecrets","Messina1347","Dune:Imperium","Boonlake","Golem","ArkNova","Mythwind","LostRuinsofArnak","Voidfall","Cascadia","Fractal:BeyondtheVoid","Brazil:Imperial","ArkhamHorror:TheCardGame","Gutenberg","Unfathomable","TheSiegeofRunedar","Apogee","Furnace","SpiritIsland","TerraformingMars","ThatTimeYouKilledMe","Ankh:GodsofEgypt","MarvelChampions:TheCardGame","Tabannusi:BuildersofUr","Wingspan","Gloomhaven","Origins:FirstBuilders","Root","DinosaurWorld","Everdell","Khora:RiseofanEmpire","Nemesis","Scythe","Brass:Birmingham","BeyondtheSun","LUNACapital","Descent:LegendsoftheDark","TooManyBones","LostRuinsofArnak:ExpeditionLeaders","Anno1800","Gloomhaven:JawsoftheLion","Eclipse:SecondDawnfortheGalaxy","GaiaProject","SleepingGods","AFeastforOdin","Horrified:AmericanMonsters","GreatWesternTrail","Maracaibo","TheGreatWall"]
+        }
+    ]
 }
