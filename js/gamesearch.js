@@ -7,11 +7,18 @@ fetch(database_url).then(function(response) {
           text: "Error Loading the list of games: " + response.statusText
         }
       }
-    return response.json(); 
+    return response.json();
 }).then(function(json) {
-  // update DOM with response
+  // update DOM with responseti
   gameTable = json.gameIdTable;
+  gameTable = "<div class='title-container'>" + "<div class='title'>"  + json.name + "</div>";
+  gameTable = "<div class='game-container'>" + "<div class='game-img'>"  + json.thumbnail + "</div>";
+  gameTable = "<div class='game-body'>"  + json.description + "</div>";
+  gameTable = "<div class='game-score'>"  + "<ul>" + "Game Score: " + json.averagerating + "</ul>" + "</div>";
+  gameTable = "<div class='game-score'>"  + "<ul>" + "Number of Players: " + json.minPlayers + "-" + json.maxPlayers + "</ul>" + "</div>";
+  gameTable = "<div class='game-score'>"  + "<ul>" + "Playing Time: " + json.playingTime + "</ul>" + "</div>" + "</div>";
   updateResult(json.text);
+  document.getElementById("game").innerHTML = gameTable;
 });
 
 function lookup(name) {
@@ -53,12 +60,12 @@ function onClick(e) {
             text: "Error calling the API service: " + response.statusText
           }
         }
-        return response.json(); 
+        return response.json();
       }).then(function(json) {
         updateResult(json);
-      });      
+      });
 }
-  
+
 //TODO add the stuff here. Info
   function updateResult(info) {
     console.log(info);
@@ -110,5 +117,3 @@ function onClick(e) {
 
       document.getElementById('result').innerHTML = result;
   }
-
-
