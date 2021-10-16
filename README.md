@@ -1,1 +1,3 @@
-# cs260_Creative_Project_01
+# cs260_Creative_Project_02
+
+Now with a game-loolup feature, super shiny and nice
