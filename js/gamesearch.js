@@ -11,7 +11,6 @@ fetch(database_url).then(function(response) {
 }).then(function(json) {
   // update DOM with responseti
   gameTable = json.gameIdTable;
-  document.getElementById("game").innerHTML = gameTable;
 });
 
 function lookup(name) {
@@ -63,7 +62,7 @@ function onClick(e) {
   function updateResult(info) {
     console.log(info);
     var result = "";
-    result += "<div class='title-container'>" + "<div class='title'>"  + info.name + "</div>" + "</div>";
+    result += "<div class='title-container'>" + "<div class='title'>" + "<h1>" + info.name + "</h1>" + "</div>" + "</div>";
     result += "<div class='game-container'>" + "<div class='game-img'>"  + "<img src='" + info.image + "' alt='picture of game'>" + "</div>";
     result += "<div class='game-body'>"  + "<p>" + info.description + "</p>" + "</div>";
     result += "<div class='game-score'>"  + "<ul>" + "Game Score: " + info.averageRating + "</ul>";
