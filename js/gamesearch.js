@@ -11,7 +11,6 @@ fetch(database_url).then(function(response) {
 }).then(function(json) {
   // update DOM with responseti
   gameTable = json.gameIdTable;
-  updateResult(json.text);
   document.getElementById("game").innerHTML = gameTable;
 });
 
