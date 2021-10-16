@@ -65,11 +65,12 @@ function onClick(e) {
     console.log(info);
     var result = "";
     result += "<div class='title-container'>" + "<div class='title'>"  + info.name + "</div>" + "</div>";
-    result += "<div class='game-container'>" + "<div class='game-img'>"  + "<img src='" + info.thumbnail + "' alt='picture of game'>" + "</div>";
-    result += "<div class='game-body'>"  + info.description + "</div>";
-    result += "<div class='game-score'>"  + "<ul>" + "Game Score: " + info.averagerating + "</ul>" + "</div>";
-    result += "<div class='game-score'>"  + "<ul>" + "Number of Players: " + info.minPlayers + "-" + info.maxPlayers + "</ul>" + "</div>";
-    result += "<div class='game-score'>"  + "<ul>" + "Playing Time: " + info.playingTime + "</ul>" + "</div>" + "</div>";
+    result += "<div class='game-container'>" + "<div class='game-img'>"  + "<img src='" + info.image + "' alt='picture of game'>" + "</div>";
+    result += "<div class='game-body'>"  + "<p>" + info.description + "</p>" + "</div>";
+    result += "<div class='game-score'>"  + "<ul>" + "Game Score: " + info.averageRating + "</ul>";
+    result += "<ul>" + "Number of Players: " + info.minPlayers + "-" + info.maxPlayers + "</ul>" ;
+    result += "<ul>" + "Playing Time: " + info.playingTime + "</ul>";
+    result += "<ul>" + "Year Published: " + info.yearPublished + "</ul>" + "</div>" + "</div>";
     document.getElementById('result').innerHTML = result;
   }
 
