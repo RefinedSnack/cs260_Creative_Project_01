@@ -33,10 +33,17 @@ function lookup(name) {
 function onClick(e) {
     let gameWanted = document.getElementById('gameInput').value;
     e.preventDefault();
+//ensure that game is in bounds
+  var gameID = lookup(gameWanted);
+  if (gameID === "not found") {
+      console.log(gameWanted, gameID);
+      suggestGames(gameWanted);
+      return "try again";
+  }
 
 
     // setup URL
-    url = "https://bgg-json.azurewebsites.net/thing/" + gameWanted;
+    url = "https://bgg-json.azurewebsites.net/thing/" + gameID;
     //url = "https://bgg-json.azurewebsites.net/boardgame/" + gameID;
     // call API
     fetch(url)
@@ -49,13 +56,6 @@ function onClick(e) {
         }
         return response.json();
       }).then(function(json) {
-        //ensure that game is in bounds
-        var gameID = lookup(gameWanted);
-        if (gameID === "not found") {
-            console.log(gameWanted, gameID);
-            suggestGames(gameWanted);
-            return "try again";
-        }
         updateResult(json);
       });
 }
